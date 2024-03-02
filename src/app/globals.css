@@ -1,14 +1,11 @@
 * {
-  background: #e745a4bd;
+  margin: 0px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 
-p {
-  color: #fff;
-}
+.contenedorHome {
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
 
-.bonnie {
-  color: #682ac5;
-  background: #db67a9;
-  font-size: 40px;
-  border: 1px solid;
 }

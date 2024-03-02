@@ -1,8 +1,11 @@
+import BannerInicio from "@/Components/BannerInicio/BannerInicio";
+import Menu from "@/Components/Menu/Menu";
+
 export default function Home() {
   return (
-    <div>
-      <p>hola este es mi primer proyecto</p>
-      <p className="bonnie">quesito</p>
+    <div className="contenedorHome">
+      <Menu title="EL NEGOCIO" />
+      <BannerInicio />
     </div>
   );
 }
